@@ -60,3 +60,11 @@ void display() {
     }
     cout << endl;
 }
+
+int main() {
+    input();          // Memanggil prosedur input
+    insertionsort();  // Memanggil prosedur sorting
+    display();        // Memanggil prosedur tampilan hasil
+    system("pause");  // Menahan layar console agar tidak langsung tertutup
+    return 0;
+}
